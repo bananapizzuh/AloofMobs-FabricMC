@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Root",
+					"pivot": [0, 3, 4]
+				},
+				{
+					"name": "Head",
+					"parent": "Root",
+					"pivot": [4, -8, 0],
+					"cubes": [
+						{"origin": [-3.5, 0, 0], "size": [8, 7, 9], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Antlers",
+					"parent": "Head",
+					"pivot": [4, -8, 0]
+				},
+				{
+					"name": "RightAntler",
+					"parent": "Antlers",
+					"pivot": [4, 5, 5],
+					"cubes": [
+						{"origin": [4.26594, 9.01504, 4], "size": [18, 2, 2], "pivot": [11, 5, 5], "rotation": [0, 0, -35], "uv": [0, 25]},
+						{"origin": [6, 8, 4.5], "size": [1, 3, 1], "uv": [40, 25]}
+					]
+				},
+				{
+					"name": "LeftAntler",
+					"parent": "Antlers",
+					"pivot": [4, -8, 0],
+					"cubes": [
+						{"origin": [-21, 5, 4], "size": [18, 2, 2], "pivot": [-3, 5, 4], "rotation": [0, 0, 35], "uv": [0, 29]},
+						{"origin": [-5, 8, 4.5], "size": [1, 3, 1], "uv": [40, 29]}
+					]
+				},
+				{
+					"name": "UpperMuzzle",
+					"parent": "Head",
+					"pivot": [3, 1, 0],
+					"cubes": [
+						{"origin": [-2.5, 2, -5], "size": [6, 3, 5], "uv": [17, 16]},
+						{"origin": [-2.5, 2, -9], "size": [6, 2, 4], "uv": [23, 0]},
+						{"origin": [-0.5, 4, -7], "size": [2, 1, 2], "pivot": [0.5, 5, -5], "rotation": [17.5, 0, 0], "uv": [0, 33]}
+					]
+				},
+				{
+					"name": "LowerMuzzle",
+					"parent": "Head",
+					"pivot": [4, -8, 0],
+					"cubes": [
+						{"origin": [-1.5, 0.5, -8], "size": [4, 2, 6], "uv": [0, 16]},
+						{"origin": [-2.5, 0, -2], "size": [6, 2, 2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

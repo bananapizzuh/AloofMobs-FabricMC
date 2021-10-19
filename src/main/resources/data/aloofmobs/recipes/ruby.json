@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " _ ",
+    "iRi",
+    " _ "
+  ],
+  "key": {
+    "_": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {"item": "aloofmobs:ruby", "count": 1}
+}
