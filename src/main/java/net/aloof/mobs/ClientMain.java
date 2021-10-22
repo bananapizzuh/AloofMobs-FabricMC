@@ -17,6 +17,6 @@ public class ClientMain implements ClientModInitializer {
     public void onInitializeClient() {
         System.out.println("Client");
         EntityRendererRegistry.register(Main.WENDIGO, (context) -> new WendigoRender(context));
-        GeoArmorRenderer.registerArmorRenderer(WendigoSkullItem.class, new WendigoSkullRenderer());
+        GeoArmorRenderer.registerArmorRenderer(new WendigoSkullRenderer(), ModItems.WENDIGO_SKULL);
     }
 }
