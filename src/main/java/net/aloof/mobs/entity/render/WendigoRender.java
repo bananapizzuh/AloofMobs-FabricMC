@@ -9,5 +9,6 @@ public class WendigoRender extends GeoEntityRenderer<WendigoEntity> {
 
     public WendigoRender(EntityRendererFactory.Context context) {
         super(context, new WendigoModel());
+
     }
 }

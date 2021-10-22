@@ -9,7 +9,7 @@ import software.bernie.geckolib3.model.AnimatedGeoModel;
 public class WendigoModel extends AnimatedGeoModel<WendigoEntity> {
 
     public Identifier getModelLocation(WendigoEntity object) {
-        return new Identifier(Main.MOD_ID, "geo/wendigo/wendigo_.geo.json");
+        return new Identifier(Main.MOD_ID, "geo/entity/wendigo_.geo.json");
     }
 
     public Identifier getTextureLocation(WendigoEntity object) {
@@ -18,6 +18,6 @@ public class WendigoModel extends AnimatedGeoModel<WendigoEntity> {
 
     @Override
     public Identifier getAnimationFileLocation(WendigoEntity animatable) {
-        return new Identifier(Main.MOD_ID, "geo/wendigo/wendigo_.geo.json");
+        return new Identifier(Main.MOD_ID, "geo/entity/wendigo_.geo.json");
     }
 }
